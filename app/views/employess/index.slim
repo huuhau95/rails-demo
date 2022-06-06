@@ -1,0 +1,5 @@
+.album.py-5.bg-light
+  .container
+    .row
+      = render partial: "employess/employee", collection: @employess
+      = paginate @employess
