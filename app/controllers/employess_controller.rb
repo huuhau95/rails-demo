@@ -8,7 +8,7 @@ class EmployessController < ApplicationController
 
         respond_to do |format|
             format.html
-            format.json { render json: @employess.to_json, status: :success }
+            format.json { render json: @employess.to_json }
         end
     end
 end
