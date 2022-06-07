@@ -23,6 +23,7 @@ gem 'bootstrap-kaminari-views'
 gem 'bootstrap', '~> 5.1.3'
 gem 'underscore-rails'
 gem 'jquery-rails'
+gem 'turbolinks'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"

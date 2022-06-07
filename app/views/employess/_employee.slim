@@ -5,6 +5,6 @@
       p.card-text = employee.name
       .d-flex.justify-content-between.align-items-center
         .btn-group
-          button.btn.btn-sm.btn-outline-secondary type="button"  View
-          button.btn.btn-sm.btn-outline-secondary type="button"  Edit
-        small.text-muted 9 mins
+          = link_to "View", employess_path(employee), class: "btn btn-sm btn-outline-secondary"
+          = link_to "Edit", edit_employess_path(employee), class: "btn btn-sm btn-outline-secondary"
+        small.text-muted = employee.created_at

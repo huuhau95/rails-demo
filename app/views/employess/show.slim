@@ -1,0 +1,8 @@
+.col-md-4 style="margin: auto"
+  .card.mb-4.shadow-sm
+    = image_tag @employee.image
+    .card-body
+      p.card-text = @employee.name
+      .d-flex.justify-content-between.align-items-center
+        .btn-group
+        small.text-muted = @employee.created_at

@@ -3,6 +3,7 @@
 //= require popper
 //= require_tree .
 //= require jquery
+//= require turbolinks
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require underscore
